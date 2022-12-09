@@ -1,0 +1,10 @@
+input_name = input("Masukan Nama : ")
+muncul = 0 
+
+for i in range(len(input_name)):
+    muncul +=1
+    print(input_name[:muncul]) 
+
+for i in range(len(input_name)):
+    muncul -= 1
+    print(input_name[:muncul])

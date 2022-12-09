@@ -1,0 +1,11 @@
+first=int(input("Masukan awal deret: "))
+end=int(input("Masukan ahkir deret: "))
+for i in range(first,end):
+    if i%2==1 and i%3!=0 and i%6!=0:
+        print(i, end=' ' )
+
+first=int(input("Masukan awal deret: "))
+end=int(input("Masukan ahkir deret: "))
+for i in range(first,end):
+    if i%2==1 and i%3!=0 and i%6!=0:
+        print(i, end=' ')       

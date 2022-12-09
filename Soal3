@@ -1,0 +1,6 @@
+first = int(input("Masukan Pembatas: "))
+second = int(input("Masukan Angka yang Dilarang: "))
+for i in range(first):
+    if i == second:
+        continue
+    print (i, end=' ')
